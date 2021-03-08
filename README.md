@@ -28,7 +28,7 @@ Copy and paste below codes to those 3 files:
 module.tf:
 ```
 module "vpc" {
-source        = "github.com/janashj/terraform-aws-vpc-vpc"
+source        = "github.com/janashj/terraform-aws-vpc"
 region        = var.region
 cidr_block    = var.cidr_block
 public_cidr1  = var.public_cidr1
